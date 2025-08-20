@@ -1,0 +1,51 @@
+# --- Unity (carpetas que NO deben ir al repo) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/        # opcional, ajustes locales que no deberían compartirse
+sysinfo.txt
+
+# --- Unity caches ---
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk                # builds Android (mantén solo el .apk final que quieras compartir)
+
+# --- IDEs ---
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb.meta
+*.svd.meta
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- WebGL/Build output ---
+*.data
+*.symbols
+*.wasm
+*.js
+*.map
+*.br
+*.gz
+
+# --- No ignores (asegúrate de versionar estas carpetas) ---
+!Assets/
+!ProjectSettings/
+!Packages/
